@@ -19,32 +19,32 @@
 
         <!-- Preloader -->
         <link type="text/css"
-              href="../public/vendor/spinkit.css"
+              href="../../../public/vendor/spinkit.css"
               rel="stylesheet">
 
         <!-- Perfect Scrollbar -->
         <link type="text/css"
-              href="../public/vendor/perfect-scrollbar.css"
+              href="../../../public/vendor/perfect-scrollbar.css"
               rel="stylesheet">
 
         <!-- Material Design Icons -->
         <link type="text/css"
-              href="../public/css/material-icons.css"
+              href="../../../public/css/material-icons.css"
               rel="stylesheet">
 
         <!-- Font Awesome Icons -->
         <link type="text/css"
-              href="../public/css/fontawesome.css"
+              href="../../../public/css/fontawesome.css"
               rel="stylesheet">
 
         <!-- Preloader -->
         <link type="text/css"
-              href="../public/css/preloader.css"
+              href="../../../public/css/preloader.css"
               rel="stylesheet">
 
         <!-- App CSS -->
         <link type="text/css"
-              href="../public/css/app.css"
+              href="../../../public/css/app.css"
               rel="stylesheet">
 
     </head>
@@ -92,13 +92,13 @@
                         </button>
 
                         <!-- Navbar Brand -->
-                        <a href="../beranda/peserta.php"
+                        <a href="../../../beranda/peserta.php"
                            class="navbar-brand mr-16pt">
                             <!-- <img class="navbar-brand-icon" src="../public/images/logo/white-100@2x.png" width="30" alt="Luma"> -->
 
                             <span class="avatar avatar-sm navbar-brand-icon mr-0 mr-lg-8pt">
 
-                                <span class="avatar-title rounded bg-primary"><img src="../public/images/illustration/student/128/white.svg"
+                                <span class="avatar-title rounded bg-primary"><img src="../../../public/images/illustration/student/128/white.svg"
                                          alt="logo"
                                          class="img-fluid" /></span>
 
@@ -107,7 +107,7 @@
 
                         <ul class="nav navbar-nav d-none d-sm-flex flex justify-content-start ml-8pt">
                             <li class="nav-item">
-                                <a href="../beranda/peserta.php"
+                                <a href="../../../beranda/peserta.php"
                                    class="nav-link">Home</a>
                             </li>
                             <li class="nav-item dropdown active">
@@ -142,7 +142,7 @@
                             <div class="player embed-responsive-item">
                                 <div class="player__content">
                                     <div class="player__image"
-                                         style="--player-image: url(../public/images/illustration/player.svg)"></div>
+                                         style="--player-image: url(../../../public/images/illustration/player.svg)"></div>
                                     <a href=""
                                        class="player__play bg-primary">
                                         <span class="material-icons">play_arrow</span>
@@ -195,7 +195,7 @@
 
                   <span class="avatar avatar-xl sidebar-brand-icon h-auto">
 
-                      <span class="avatar-title rounded bg-primary"><img src="../../public/images/illustration/student/128/white.svg"
+                      <span class="avatar-title rounded bg-primary"><img src="../../../public/images/illustration/student/128/white.svg"
                                class="img-fluid"
                                alt="logo" /></span>
 
@@ -242,26 +242,26 @@
 </div>
 
         <!-- jQuery -->
-        <script src="../public/vendor/jquery.min.js"></script>
+        <script src="../../../public/vendor/jquery.min.js"></script>
 
         <!-- Bootstrap -->
-        <script src="../public/vendor/popper.min.js"></script>
-        <script src="../public/vendor/bootstrap.min.js"></script>
+        <script src="../../../public/vendor/popper.min.js"></script>
+        <script src="../../../public/vendor/bootstrap.min.js"></script>
 
         <!-- Perfect Scrollbar -->
-        <script src="../public/vendor/perfect-scrollbar.min.js"></script>
+        <script src="../../../public/vendor/perfect-scrollbar.min.js"></script>
 
         <!-- DOM Factory -->
-        <script src="../public/vendor/dom-factory.js"></script>
+        <script src="../../../public/vendor/dom-factory.js"></script>
 
         <!-- MDK -->
-        <script src="../public/vendor/material-design-kit.js"></script>
+        <script src="../../../public/vendor/material-design-kit.js"></script>
 
         <!-- App JS -->
-        <script src="../public/js/app.js"></script>
+        <script src="../../../public/js/app.js"></script>
 
         <!-- Preloader -->
-        <script src="../public/js/preloader.js"></script>
+        <script src="../../../public/js/preloader.js"></script>
 
     </body>
 
