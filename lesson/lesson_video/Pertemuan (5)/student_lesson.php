@@ -219,7 +219,7 @@
 
                   <li class="sidebar-menu-item">
                       <a class="sidebar-menu-button"
-                      href="../../../quiz/Pertemuan (1)/quiz.php">
+                      href="../../../quiz/Pertemuan (5)/quiz.php">
                           <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left">content_copy</span>
                           <span class="sidebar-menu-text">Menulis Kata</span>
                       </a>
