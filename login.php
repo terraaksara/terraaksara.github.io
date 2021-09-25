@@ -49,6 +49,8 @@
     <div class="form-label-group">
       <input type="password" name="password" class="form-control" placeholder="Masukkan Password Anda!" required>
       <label>Masukkan Password Anda!</label>
+      <br>
+      <input type="checkbox" class="from-checkbox"> Show Password
     </div>
 
     <div class="form-label-group">
@@ -67,6 +69,17 @@
     <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
     <p class="mt-5 mb-3 text-muted text-center">&copy; Forum Indonesia Menulis 2020-<?= date('Y') ?></p>
   </form>
+<script type="text/javascript">
+  $(document).ready(function(){
+    $('.from-checkbox').click(function(){
+      if($(this).is(':checked')){
+        $('.from-control').attr('type','text');
+      } else {
+        $('.from-control').attr('type','password');
+      }
+    });
+  });
+</script>
 </body>
 
 </html>
