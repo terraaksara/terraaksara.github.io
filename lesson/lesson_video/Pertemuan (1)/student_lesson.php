@@ -230,7 +230,7 @@
 
                   <li class="sidebar-menu-item">
                       <a class="sidebar-menu-button"
-                      href="presention.php">
+                      href="../../presention.php">
                           <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left">people</span>
                           <span class="sidebar-menu-text">Pertemuan 1</span>
                       </a>
