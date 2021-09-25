@@ -49,7 +49,11 @@
     <div class="form-label-group">
       <input type="password" name="password" class="form-control from-password" placeholder="Masukkan Password Anda!" required>
       <label>Masukkan Password Anda!</label>
-      <input type="checkbox" class="from-checkbox" value="show-password"> Show Password
+      <div class="checkbox mb-3">
+      <label>
+        <input type="checkbox" value="lihat-password"> Lihat Password
+      </label>
+    </div>
     </div>
 
     <div class="form-label-group">
