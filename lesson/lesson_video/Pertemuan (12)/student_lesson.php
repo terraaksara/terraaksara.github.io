@@ -19,32 +19,32 @@
 
         <!-- Preloader -->
         <link type="text/css"
-              href="../public/vendor/spinkit.css"
+              href="../../../public/vendor/spinkit.css"
               rel="stylesheet">
 
         <!-- Perfect Scrollbar -->
         <link type="text/css"
-              href="../public/vendor/perfect-scrollbar.css"
+              href="../../../public/vendor/perfect-scrollbar.css"
               rel="stylesheet">
 
         <!-- Material Design Icons -->
         <link type="text/css"
-              href="../public/css/material-icons.css"
+              href="../../../public/css/material-icons.css"
               rel="stylesheet">
 
         <!-- Font Awesome Icons -->
         <link type="text/css"
-              href="../public/css/fontawesome.css"
+              href="../../../public/css/fontawesome.css"
               rel="stylesheet">
 
         <!-- Preloader -->
         <link type="text/css"
-              href="../public/css/preloader.css"
+              href="../../../public/css/preloader.css"
               rel="stylesheet">
 
         <!-- App CSS -->
         <link type="text/css"
-              href="../public/css/app.css"
+              href="../../../public/css/app.css"
               rel="stylesheet">
 
     </head>
@@ -92,13 +92,13 @@
                         </button>
 
                         <!-- Navbar Brand -->
-                        <a href="../beranda/peserta.php"
+                        <a href="../../../beranda/peserta.php"
                            class="navbar-brand mr-16pt">
                             <!-- <img class="navbar-brand-icon" src="../public/images/logo/white-100@2x.png" width="30" alt="Luma"> -->
 
                             <span class="avatar avatar-sm navbar-brand-icon mr-0 mr-lg-8pt">
 
-                                <span class="avatar-title rounded bg-primary"><img src="../public/images/illustration/student/128/white.svg"
+                                <span class="avatar-title rounded bg-primary"><img src="../../../public/images/illustration/student/128/white.svg"
                                          alt="logo"
                                          class="img-fluid" /></span>
 
@@ -107,7 +107,7 @@
 
                         <ul class="nav navbar-nav d-none d-sm-flex flex justify-content-start ml-8pt">
                             <li class="nav-item">
-                                <a href="../beranda/peserta.php"
+                                <a href="../../../beranda/peserta.php"
                                    class="nav-link">Home</a>
                             </li>
                             <li class="nav-item dropdown active">
@@ -142,7 +142,7 @@
                             <div class="player embed-responsive-item">
                                 <div class="player__content">
                                     <div class="player__image"
-                                         style="--player-image: url(../public/images/illustration/player.svg)"></div>
+                                         style="--player-image: url(../../../public/images/illustration/player.svg)"></div>
                                     <a href=""
                                        class="player__play bg-primary">
                                         <span class="material-icons">play_arrow</span>
@@ -155,11 +155,11 @@
                         </div>
 
                         <div class="d-flex flex-wrap align-items-end mb-16pt">
-                            <h1 class="text-white flex m-0">Introduction to TypeScript</h1>
-                            <p class="h1 text-white-50 font-weight-light m-0">50:13</p>
+                            <h1 class="text-white flex m-0">Menjadi Guru</h1>
                         </div>
 
-                        <p class="hero__lead measure-hero-lead text-white-50 mb-24pt">JavaScript is now used to power backends, create hybrid mobile applications, architect cloud solutions, design neural networks and even control robots. Enter TypeScript: a superset of JavaScript for scalable, secure, performant and feature-rich applications.</p>
+                        <p class="hero__lead measure-hero-lead text-white-50 mb-24pt">Silahkan Download Materi Dengan Mengklik Tombol Dibawah ini</p>
+                        <a href="https://drive.google.com/file/d/1yS6g3BGjaeEacDszHAuz3t6vc1hsNyD5/view?usp=sharing"><button type="button" class="btn btn-outline-secondary">Download Materi 1</button></a>
 
                 </div>
 
@@ -195,7 +195,7 @@
 
                   <span class="avatar avatar-xl sidebar-brand-icon h-auto">
 
-                      <span class="avatar-title rounded bg-primary"><img src="../../public/images/illustration/student/128/white.svg"
+                      <span class="avatar-title rounded bg-primary"><img src="../../../public/images/illustration/student/128/white.svg"
                                class="img-fluid"
                                alt="logo" /></span>
 
@@ -230,7 +230,7 @@
 
                   <li class="sidebar-menu-item">
                       <a class="sidebar-menu-button"
-                      href="presention.php">
+                      href="../../presention.php">
                           <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left">people</span>
                           <span class="sidebar-menu-text">Pertemuan 1</span>
                       </a>
@@ -242,26 +242,26 @@
 </div>
 
         <!-- jQuery -->
-        <script src="../public/vendor/jquery.min.js"></script>
+        <script src="../../../public/vendor/jquery.min.js"></script>
 
         <!-- Bootstrap -->
-        <script src="../public/vendor/popper.min.js"></script>
-        <script src="../public/vendor/bootstrap.min.js"></script>
+        <script src="../../../public/vendor/popper.min.js"></script>
+        <script src="../../../public/vendor/bootstrap.min.js"></script>
 
         <!-- Perfect Scrollbar -->
-        <script src="../public/vendor/perfect-scrollbar.min.js"></script>
+        <script src="../../../public/vendor/perfect-scrollbar.min.js"></script>
 
         <!-- DOM Factory -->
-        <script src="../public/vendor/dom-factory.js"></script>
+        <script src="../../../public/vendor/dom-factory.js"></script>
 
         <!-- MDK -->
-        <script src="../public/vendor/material-design-kit.js"></script>
+        <script src="../../../public/vendor/material-design-kit.js"></script>
 
         <!-- App JS -->
-        <script src="../public/js/app.js"></script>
+        <script src="../../../public/js/app.js"></script>
 
         <!-- Preloader -->
-        <script src="../public/js/preloader.js"></script>
+        <script src="../../../public/js/preloader.js"></script>
 
     </body>
 

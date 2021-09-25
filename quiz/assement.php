@@ -216,7 +216,7 @@
 
                    <li class="sidebar-menu-item">
                        <a class="sidebar-menu-button"
-                       href="../lesson/student_lesson.php">
+                       href="../lesson/lesson_video/Pertemuan (1)/student_lesson.php">
                            <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left">home</span>
                            <span class="sidebar-menu-text">Menjadi Guru Istimewa</span>
                        </a>
