@@ -299,7 +299,7 @@
         <!-- Preloader -->
         <script src="../public/js/preloader.js"></script>
         <!-- page script -->
-        <script src="../js/jquery.min.js"></script>
+        <script src="https://fim-indonesia.com/js/jquery.min.js"></script>
 	<script type="text/javascript">
 var htmlobjek;
 $(document).ready(function(){
