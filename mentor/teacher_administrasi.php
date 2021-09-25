@@ -330,11 +330,11 @@ $("#tugas").html(msg);
 });
 });
 
-$("#kelas").change(function(){
-var kelas = $("#kelas").val();
+$("#uskelas").change(function(){
+var kelas = $("#uskelas").val();
 $.ajax({
 url: "../get_data_user/get_data_absen.php",
-data: "kelas="+kelas,
+data: "uskelas="+kelas,
 cache: false,
 success: function(msg){
 $("#absen").html(msg);
