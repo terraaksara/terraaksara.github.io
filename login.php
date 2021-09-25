@@ -50,7 +50,11 @@
       <input type="password" name="password" class="form-control from-password" placeholder="Masukkan Password Anda!" required>
       <span id="mybutton" onclick="change()"><i class="glyphicon glyphicon-eye-open"></i>
       <label>Masukkan Password Anda!</label>
-      
+      <form class="col-md-4 col-md-offset-4 myform" action="" method="post">
+            <h4>Masukkan Password Anda!</h4>
+            <input class="from-control myinput" type="password" name="password" value="" id="pass">
+            <span id="mybutton" onclick="change()"><i class="glyphicon glyphicon-eye-open"></i></span>
+      </form>
     </div>
 
     <div class="form-label-group">
