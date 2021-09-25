@@ -47,10 +47,9 @@
     </div>
 
     <div class="form-label-group">
-      <input type="password" name="password" class="form-control" placeholder="Masukkan Password Anda!" required>
+      <input type="password" name="password" class="form-control from-password" placeholder="Masukkan Password Anda!" required>
       <label>Masukkan Password Anda!</label>
-      <br>
-      <input type="checkbox" class="from-checkbox"> Show Password
+      <input type="checkbox" class="from-checkbox" value="show-password"> Show Password
     </div>
 
     <div class="form-label-group">
@@ -73,9 +72,9 @@
   $(document).ready(function(){
     $('.from-checkbox').click(function(){
       if($(this).is(':checked')){
-        $('.from-control').attr('type','text');
+        $('.from-password').attr('type','text');
       } else {
-        $('.from-control').attr('type','password');
+        $('.from-password').attr('type','password');
       }
     });
   });
