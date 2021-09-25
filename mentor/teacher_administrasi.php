@@ -307,7 +307,7 @@ $(document).ready(function(){
 $("#uskabkot").change(function(){
 var uskabkot = $("#uskabkot").val();
 $.ajax({
-url: "../get_data_user/get_data_uskelas.php",
+url: "../get_data_user/get_user_uskelas.php",
 data: "uskabkot="+uskabkot,
 cache: false,
 success: function(msg){
@@ -321,7 +321,7 @@ $("#uskelas").html(msg);
 $("#uskelas").change(function(){
 var uskelas = $("#uskelas").val();
 $.ajax({
-url: "../get_data_user/get_data_tugas.php",
+url: "../get_data_user/get_user_tugas.php",
 data: "uskelas="+uskelas,
 cache: false,
 success: function(msg){
@@ -333,7 +333,7 @@ $("#tugas").html(msg);
 $("#uskelas").change(function(){
 var kelas = $("#uskelas").val();
 $.ajax({
-url: "../get_data_user/get_data_absen.php",
+url: "../get_data_user/get_user_absen.php",
 data: "uskelas="+kelas,
 cache: false,
 success: function(msg){
@@ -345,7 +345,7 @@ $("#absen").html(msg);
 $("#kelas").change(function(){
 var kelas = $("#kelas").val();
 $.ajax({
-url: "../get_data_user/get_data_doc.php",
+url: "../get_data_user/get_user_doc.php",
 data: "kelas="+kelas,
 cache: false,
 success: function(msg){
