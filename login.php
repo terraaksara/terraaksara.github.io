@@ -48,7 +48,9 @@
 
     <div class="form-label-group">
       <input type="password" name="password" class="form-control from-password" placeholder="Masukkan Password Anda!" required>
+      <span id="mybutton" onclick="change()"><i class="glyphicon glyphicon-eye-open"></i>
       <label>Masukkan Password Anda!</label>
+      
     </div>
 
     <div class="form-label-group">
