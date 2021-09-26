@@ -197,7 +197,7 @@
                        </a>
                    </li>
                </ul>
-               <div class="sidebar-heading">Daftar Hadir</div>
+               <div class="sidebar-heading">Tugas</div>
                <ul class="sidebar-menu">
 
                    <li class="sidebar-menu-item">
@@ -215,7 +215,7 @@
                        <a class="sidebar-menu-button"
                        href="presention.php">
                            <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left">people</span>
-                           <span class="sidebar-menu-text">Pertemuan 1</span>
+                           <span class="sidebar-menu-text">Daftar Hadir Peserta</span>
                        </a>
                    </li>
                </ul>
@@ -275,6 +275,18 @@ data: "abkelas="+abkelas,
 cache: false,
 success: function(msg){
 $("#pertemuan").html(msg);
+}
+});
+});
+
+$("#pertemuan").change(function(){
+var pertemuan = $("#pertemuan").val();
+$.ajax({
+url: "../get_data/get_data_pertemuan.php",
+data: "pertemuan="+pertemuan,
+cache: false,
+success: function(msg){
+$("#link").html(msg);
 }
 });
 });
