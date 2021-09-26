@@ -433,85 +433,85 @@ if (empty($_SESSION['username']) or empty($_SESSION['level'])) {
                                     id="enterprise_menu">
                                     <li class="sidebar-menu-item">
                                         <a class="sidebar-menu-button"
-                                           href="erp-dashboard.html">
+                                           href="../lesson/lesson_video/Pertemuan (1)/student_lesson.php">
                                             <span class="sidebar-menu-text">Pertemuan 1</span>
                                         </a>
                                     </li>
                                     <li class="sidebar-menu-item">
                                         <a class="sidebar-menu-button"
-                                           href="crm-dashboard.html">
+                                           href="../lesson/lesson_video/Pertemuan (2)/student_lesson.php">
                                             <span class="sidebar-menu-text">Pertemuan 2</span>
                                         </a>
                                     </li>
                                     <li class="sidebar-menu-item">
                                         <a class="sidebar-menu-button"
-                                           href="hr-dashboard.html">
+                                           href="../lesson/lesson_video/Pertemuan (3)/student_lesson.php">
                                             <span class="sidebar-menu-text">Pertemuan 3</span>
                                         </a>
                                     </li>
                                     <li class="sidebar-menu-item">
                                         <a class="sidebar-menu-button"
-                                           href="hr-dashboard.html">
+                                           href="../lesson/lesson_video/Pertemuan (4)/student_lesson.php">
                                             <span class="sidebar-menu-text">Pertemuan 4</span>
                                         </a>
                                     </li>
                                     <li class="sidebar-menu-item">
                                         <a class="sidebar-menu-button"
-                                           href="hr-dashboard.html">
+                                           href="../lesson/lesson_video/Pertemuan (5)/student_lesson.php">
                                             <span class="sidebar-menu-text">Pertemuan 5</span>
                                         </a>
                                     </li>
                                     <li class="sidebar-menu-item">
                                         <a class="sidebar-menu-button"
-                                           href="hr-dashboard.html">
+                                           href="../lesson/lesson_video/Pertemuan (6)/student_lesson.php">
                                             <span class="sidebar-menu-text">Pertemuan 6</span>
                                         </a>
                                     </li>
                                     <li class="sidebar-menu-item">
                                         <a class="sidebar-menu-button"
-                                           href="hr-dashboard.html">
+                                           href="../lesson/lesson_video/Pertemuan (7)/student_lesson.php">
                                             <span class="sidebar-menu-text">Pertemuan 7</span>
                                         </a>
                                     </li>
                                     <li class="sidebar-menu-item">
                                         <a class="sidebar-menu-button"
-                                           href="hr-dashboard.html">
+                                           href="../lesson/lesson_video/Pertemuan (8)/student_lesson.php">
                                             <span class="sidebar-menu-text">Pertemuan 8</span>
                                         </a>
                                     </li>
                                     <li class="sidebar-menu-item">
                                         <a class="sidebar-menu-button"
-                                           href="hr-dashboard.html">
+                                           href="../lesson/lesson_video/Pertemuan (9)/student_lesson.php">
                                             <span class="sidebar-menu-text">Pertemuan 9</span>
                                         </a>
                                     </li>
                                     <li class="sidebar-menu-item">
                                         <a class="sidebar-menu-button"
-                                           href="hr-dashboard.html">
+                                           href="../lesson/lesson_video/Pertemuan (10)/student_lesson.php">
                                             <span class="sidebar-menu-text">Pertemuan 10</span>
                                         </a>
                                     </li>
                                     <li class="sidebar-menu-item">
                                         <a class="sidebar-menu-button"
-                                           href="hr-dashboard.html">
+                                           href="../lesson/lesson_video/Pertemuan (11)/student_lesson.php">
                                             <span class="sidebar-menu-text">Pertemuan 11</span>
                                         </a>
                                     </li>
                                     <li class="sidebar-menu-item">
                                         <a class="sidebar-menu-button"
-                                           href="hr-dashboard.html">
+                                           href="../lesson/lesson_video/Pertemuan (12)/student_lesson.php">
                                             <span class="sidebar-menu-text">Pertemuan 12</span>
                                         </a>
                                     </li>
                                     <li class="sidebar-menu-item">
                                         <a class="sidebar-menu-button"
-                                           href="hr-dashboard.html">
+                                           href="../lesson/lesson_video/Pertemuan (13)/student_lesson.php">
                                             <span class="sidebar-menu-text">Pertemuan 13</span>
                                         </a>
                                     </li>
                                     <li class="sidebar-menu-item">
                                         <a class="sidebar-menu-button"
-                                           href="hr-dashboard.html">
+                                           href="../lesson/lesson_video/Pertemuan (14)/student_lesson.php">
                                             <span class="sidebar-menu-text">Pertemuan 14</span>
                                         </a>
                                     </li>
