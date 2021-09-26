@@ -418,22 +418,15 @@ if (empty($_SESSION['username']) or empty($_SESSION['level'])) {
                         </li>
                     </ul>
 
-                    <div class="sidebar-heading">Peserta WLG</div>
+                    <div class="sidebar-heading">Video Pembelajaran</div>
                     <ul class="sidebar-menu">
 
-                        <li class="sidebar-menu-item">
-                            <a class="sidebar-menu-button js-sidebar-collapse"
-                                data-toggle="collapse"
-                                href="../lesson/course.php">
-                                <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left">school</span>
-                                <span class="sidebar-menu-text">Video Pembelajaran</span>
-                            </a>
                             <li class="sidebar-menu-item">
                                 <a class="sidebar-menu-button js-sidebar-collapse"
                                    data-toggle="collapse"
-                                   href="#enterprise_menu">
-                                    <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left">donut_large</span>
-                                    Enterprise
+                                   href="../lesson/course.php">
+                                    <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left">school</span>
+                                    Pertemuan
                                     <span class="ml-auto sidebar-menu-toggle-icon"></span>
                                 </a>
                                 <ul class="sidebar-submenu collapse sm-indent"
@@ -441,22 +434,89 @@ if (empty($_SESSION['username']) or empty($_SESSION['level'])) {
                                     <li class="sidebar-menu-item">
                                         <a class="sidebar-menu-button"
                                            href="erp-dashboard.html">
-                                            <span class="sidebar-menu-text">ERP Dashboard</span>
+                                            <span class="sidebar-menu-text">Pertemuan 1</span>
                                         </a>
                                     </li>
                                     <li class="sidebar-menu-item">
                                         <a class="sidebar-menu-button"
                                            href="crm-dashboard.html">
-                                            <span class="sidebar-menu-text">CRM Dashboard</span>
+                                            <span class="sidebar-menu-text">Pertemuan 2</span>
                                         </a>
                                     </li>
                                     <li class="sidebar-menu-item">
                                         <a class="sidebar-menu-button"
                                            href="hr-dashboard.html">
-                                            <span class="sidebar-menu-text">HR Dashboard</span>
+                                            <span class="sidebar-menu-text">Pertemuan 3</span>
                                         </a>
                                     </li>
-                        </li>
+                                    <li class="sidebar-menu-item">
+                                        <a class="sidebar-menu-button"
+                                           href="hr-dashboard.html">
+                                            <span class="sidebar-menu-text">Pertemuan 4</span>
+                                        </a>
+                                    </li>
+                                    <li class="sidebar-menu-item">
+                                        <a class="sidebar-menu-button"
+                                           href="hr-dashboard.html">
+                                            <span class="sidebar-menu-text">Pertemuan 5</span>
+                                        </a>
+                                    </li>
+                                    <li class="sidebar-menu-item">
+                                        <a class="sidebar-menu-button"
+                                           href="hr-dashboard.html">
+                                            <span class="sidebar-menu-text">Pertemuan 6</span>
+                                        </a>
+                                    </li>
+                                    <li class="sidebar-menu-item">
+                                        <a class="sidebar-menu-button"
+                                           href="hr-dashboard.html">
+                                            <span class="sidebar-menu-text">Pertemuan 7</span>
+                                        </a>
+                                    </li>
+                                    <li class="sidebar-menu-item">
+                                        <a class="sidebar-menu-button"
+                                           href="hr-dashboard.html">
+                                            <span class="sidebar-menu-text">Pertemuan 8</span>
+                                        </a>
+                                    </li>
+                                    <li class="sidebar-menu-item">
+                                        <a class="sidebar-menu-button"
+                                           href="hr-dashboard.html">
+                                            <span class="sidebar-menu-text">Pertemuan 9</span>
+                                        </a>
+                                    </li>
+                                    <li class="sidebar-menu-item">
+                                        <a class="sidebar-menu-button"
+                                           href="hr-dashboard.html">
+                                            <span class="sidebar-menu-text">Pertemuan 10</span>
+                                        </a>
+                                    </li>
+                                    <li class="sidebar-menu-item">
+                                        <a class="sidebar-menu-button"
+                                           href="hr-dashboard.html">
+                                            <span class="sidebar-menu-text">Pertemuan 11</span>
+                                        </a>
+                                    </li>
+                                    <li class="sidebar-menu-item">
+                                        <a class="sidebar-menu-button"
+                                           href="hr-dashboard.html">
+                                            <span class="sidebar-menu-text">Pertemuan 12</span>
+                                        </a>
+                                    </li>
+                                    <li class="sidebar-menu-item">
+                                        <a class="sidebar-menu-button"
+                                           href="hr-dashboard.html">
+                                            <span class="sidebar-menu-text">Pertemuan 13</span>
+                                        </a>
+                                    </li>
+                                    <li class="sidebar-menu-item">
+                                        <a class="sidebar-menu-button"
+                                           href="hr-dashboard.html">
+                                            <span class="sidebar-menu-text">Pertemuan 14</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
                     </ul>
                    
 
