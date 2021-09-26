@@ -427,6 +427,38 @@ if (empty($_SESSION['username']) or empty($_SESSION['level'])) {
                                 <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left">school</span>
                                 <span class="sidebar-menu-text">Video Pembelajaran</span>
                             </a>
+                            <ul class="sidebar-menu">
+
+                                    <li class="sidebar-menu-item active">
+                                        <a class="sidebar-menu-button"
+                                        href="student_lesson.php">
+                                            <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left">home</span>
+                                            <span class="sidebar-menu-text">Menjadi Guru Istimewa</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <div class="sidebar-heading">Tugas</div>
+                                <ul class="sidebar-menu">
+
+                                    <li class="sidebar-menu-item">
+                                        <a class="sidebar-menu-button"
+                                        href="../../../quiz/Pertemuan (1)/quiz.php">
+                                            <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left">content_copy</span>
+                                            <span class="sidebar-menu-text">Menulis Kata</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <div class="sidebar-heading">Daftar Hadir</div>
+                                <ul class="sidebar-menu">
+
+                                    <li class="sidebar-menu-item">
+                                        <a class="sidebar-menu-button"
+                                        href="../../presention.php">
+                                            <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left">people</span>
+                                            <span class="sidebar-menu-text">Pertemuan 1</span>
+                                        </a>
+                                    </li>
+                                </ul>
                         </li>
                     </ul>
                    
