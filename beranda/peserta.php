@@ -522,13 +522,13 @@ if (empty($_SESSION['username']) or empty($_SESSION['level'])) {
                             <li class="sidebar-menu-item">
                                 <a class="sidebar-menu-button js-sidebar-collapse"
                                    data-toggle="collapse"
-                                   href="#enterprise_menu">
-                                    <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left">school</span>
-                                    Pertemuan
+                                   href="#quiz_menu">
+                                    <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left">content_copy</span>
+                                    Tugas Peserta WLG
                                     <span class="ml-auto sidebar-menu-toggle-icon"></span>
                                 </a>
                                 <ul class="sidebar-submenu collapse sm-indent"
-                                    id="enterprise_menu">
+                                    id="quiz_menu">
                                     <li class="sidebar-menu-item">
                                         <a class="sidebar-menu-button"
                                            href="../quiz/Pertemuan (1)/quiz.php">
