@@ -78,39 +78,49 @@ if (empty($_SESSION['username']) or empty($_SESSION['level'])) {
         </div>
 
         <!-- Header Layout -->
-        <div class="mdk-drawer-layout js-mdk-drawer-layout"
+        <div class="mdk-header-layout js-mdk-header-layout"
              data-push
              data-responsive-width="992px">
             <div class="mdk-drawer-layout__content page-content">
 
-                <!-- Header -->
+            <!-- Header -->
 
-                <div class="navbar navbar-expand navbar-light border-bottom-2"
-                     id="default-navbar"
-                     data-primary>
+            <div id="header"
+                 class="mdk-header mdk-header--bg-dark bg-dark js-mdk-header mb-0"
+                 data-effects="parallax-background waterfall"
+                 data-fixed
+                 data-condenses>
+                <div class="mdk-header__bg">
+                    <div class="mdk-header__bg-front"
+                         style="background-image: url(../img/alfons-morales-YLSwjSy7stw-unsplash.jpg);"></div>
+                </div>
+                <div class="mdk-header__content justify-content-center">
 
-                    <!-- Navbar toggler -->
-                    <button class="navbar-toggler w-auto mr-16pt d-block d-lg-none rounded-0"
-                            type="button"
-                            data-toggle="sidebar">
-                        <span class="material-icons">short_text</span>
-                    </button>
+                    <div class="navbar navbar-expand navbar-dark-pickled-bluewood bg-transparent will-fade-background"
+                         id="default-navbar"
+                         data-primary>
 
-                    <!-- Navbar Brand -->
-                    <a href="index.html"
-                       class="navbar-brand mr-16pt d-lg-none">
-                        <!-- <img class="navbar-brand-icon" src="../../public/images/logo/white-100@2x.png" width="30" alt="Luma"> -->
+                        <!-- Navbar toggler -->
+                        <button class="navbar-toggler w-auto mr-16pt d-block rounded-0"
+                                type="button"
+                                data-toggle="sidebar">
+                            <span class="material-icons">short_text</span>
+                        </button>
 
-                        <span class="avatar avatar-sm navbar-brand-icon mr-0 mr-lg-8pt">
+                        <!-- Navbar Brand -->
+                        <a href="../index.php"
+                           class="navbar-brand mr-16pt">
+                            <!-- <img class="navbar-brand-icon" src="../../public/images/logo/white-100@2x.png" width="30" alt="Luma"> -->
 
-                            <span class="avatar-title rounded bg-primary"><img src="../../public/images/illustration/student/128/white.svg"
-                                     alt="logo"
-                                     class="img-fluid" /></span>
+                            <span class="avatar avatar-sm navbar-brand-icon mr-0 mr-lg-8pt">
 
-                        </span>
+                                <span class="avatar-title rounded bg-primary"><img src="../../public/images/illustration/student/128/white.svg"
+                                         alt="logo"
+                                         class="img-fluid" /></span>
 
-                        <span class="d-none d-lg-block">Luma</span>
-                    </a>
+                            </span>
+
+                        </a>
 
                         <ul class="nav navbar-nav d-none d-sm-flex flex justify-content-start ml-8pt">
                             <li class="nav-item active">
