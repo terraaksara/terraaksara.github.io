@@ -387,7 +387,7 @@ if (empty($_SESSION['username']) or empty($_SESSION['level'])) {
         <div class="mdk-drawer js-mdk-drawer"
              id="default-drawer">
             <div class="mdk-drawer__content">
-                <div class="sidebar sidebar-dark-pickled-bluewood sidebar-left"
+                <div class="sidebar sidebar-dark-pickled-bluewood sidebar-left fixed-top"
                      data-perfect-scrollbar>
 
                     <!-- Sidebar Content -->
