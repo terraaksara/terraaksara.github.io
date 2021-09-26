@@ -78,10 +78,7 @@ if (empty($_SESSION['username']) or empty($_SESSION['level'])) {
         </div>
 
         <!-- Header Layout -->
-        <div class="mdk-header-layout js-mdk-header-layout"
-             data-push
-             data-responsive-width="992px">
-            <div class="mdk-drawer-layout__content page-content">
+        <div class="mdk-header-layout js-mdk-header-layout">
 
             <!-- Header -->
 
