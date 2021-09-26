@@ -424,7 +424,7 @@ if (empty($_SESSION['username']) or empty($_SESSION['level'])) {
                             <li class="sidebar-menu-item">
                                 <a class="sidebar-menu-button js-sidebar-collapse"
                                    data-toggle="collapse"
-                                   href="../lesson/course.php">
+                                   href="enterprise_menu">
                                     <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left">school</span>
                                     Pertemuan
                                     <span class="ml-auto sidebar-menu-toggle-icon"></span>
