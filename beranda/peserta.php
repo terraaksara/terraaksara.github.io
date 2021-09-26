@@ -620,7 +620,7 @@ if (empty($_SESSION['username']) or empty($_SESSION['level'])) {
 
                                 <li class="sidebar-menu-item">
                                     <a class="sidebar-menu-button"
-                                    href="../../presention.php">
+                                    href="../lesson/presention.php">
                                         <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left">people</span>
                                         <span class="sidebar-menu-text">Daftar Hadir Peserta</span>
                                     </a>
