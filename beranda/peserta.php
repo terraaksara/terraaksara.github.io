@@ -422,12 +422,13 @@ if (empty($_SESSION['username']) or empty($_SESSION['level'])) {
                     <ul class="sidebar-menu">
 
                         <li class="sidebar-menu-item">
-                            <a class="sidebar-menu-button"
-                               href="../lesson/course.php">
+                            <a class="sidebar-menu-button js-sidebar-collapse"
+                                data-toggle="collapse"
+                                href="../lesson/course.php">
                                 <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left">school</span>
                                 <span class="sidebar-menu-text">Video Pembelajaran</span>
                             </a>
-                            <ul class="sidebar-menu">
+                            <ul class="sidebar-submenu collapse sm-indent" id="enterprise_menu">
 
                                     <li class="sidebar-menu-item active">
                                         <a class="sidebar-menu-button"
