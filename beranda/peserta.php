@@ -516,6 +516,108 @@ if (empty($_SESSION['username']) or empty($_SESSION['level'])) {
                                         </a>
                                     </li>
                                 </ul>
+                            <div class="sidebar-heading">Tugas</div>
+                            <ul class="sidebar-menu">
+
+                            <li class="sidebar-menu-item">
+                                <a class="sidebar-menu-button js-sidebar-collapse"
+                                   data-toggle="collapse"
+                                   href="#enterprise_menu">
+                                    <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left">school</span>
+                                    Pertemuan
+                                    <span class="ml-auto sidebar-menu-toggle-icon"></span>
+                                </a>
+                                <ul class="sidebar-submenu collapse sm-indent"
+                                    id="enterprise_menu">
+                                    <li class="sidebar-menu-item">
+                                        <a class="sidebar-menu-button"
+                                           href="../quiz/Pertemuan (1)/quiz.php">
+                                            <span class="sidebar-menu-text">Tugas Pertemuan 1</span>
+                                        </a>
+                                    </li>
+                                    <li class="sidebar-menu-item">
+                                        <a class="sidebar-menu-button"
+                                           href="../quiz/Pertemuan (2)/quiz.php">
+                                            <span class="sidebar-menu-text">Tugas Pertemuan 2</span>
+                                        </a>
+                                    </li>
+                                    <li class="sidebar-menu-item">
+                                        <a class="sidebar-menu-button"
+                                           href="../quiz/Pertemuan (3)/quiz.php">
+                                            <span class="sidebar-menu-text">Tugas Pertemuan 3</span>
+                                        </a>
+                                    </li>
+                                    <li class="sidebar-menu-item">
+                                        <a class="sidebar-menu-button"
+                                           href="../quiz/Pertemuan (4)/quiz.php">
+                                            <span class="sidebar-menu-text">Tugas Pertemuan 4</span>
+                                        </a>
+                                    </li>
+                                    <li class="sidebar-menu-item">
+                                        <a class="sidebar-menu-button"
+                                           href="../quiz/Pertemuan (5)/quiz.php">
+                                            <span class="sidebar-menu-text">Tugas Pertemuan 5</span>
+                                        </a>
+                                    </li>
+                                    <li class="sidebar-menu-item">
+                                        <a class="sidebar-menu-button"
+                                           href="../quiz/Pertemuan (6)/quiz.php">
+                                            <span class="sidebar-menu-text">Tugas Pertemuan 6</span>
+                                        </a>
+                                    </li>
+                                    <li class="sidebar-menu-item">
+                                        <a class="sidebar-menu-button"
+                                           href="../quiz/Pertemuan (7)/quiz.php">
+                                            <span class="sidebar-menu-text">Tugas Pertemuan 7</span>
+                                        </a>
+                                    </li>
+                                    <li class="sidebar-menu-item">
+                                        <a class="sidebar-menu-button"
+                                           href="../quiz/Pertemuan (8)/quiz.php">
+                                            <span class="sidebar-menu-text">Tugas Pertemuan 8</span>
+                                        </a>
+                                    </li>
+                                    <li class="sidebar-menu-item">
+                                        <a class="sidebar-menu-button"
+                                           href="../quiz/Pertemuan (9)/quiz.php">
+                                            <span class="sidebar-menu-text">Tugas Pertemuan 9</span>
+                                        </a>
+                                    </li>
+                                    <li class="sidebar-menu-item">
+                                        <a class="sidebar-menu-button"
+                                           href="../quiz/Pertemuan (10)/quiz.php">
+                                            <span class="sidebar-menu-text">Tugas Pertemuan 10</span>
+                                        </a>
+                                    </li>
+                                    <li class="sidebar-menu-item">
+                                        <a class="sidebar-menu-button"
+                                           href="../quiz/Pertemuan (11)/quiz.php">
+                                            <span class="sidebar-menu-text">Tugas Pertemuan 11</span>
+                                        </a>
+                                    </li>
+                                    <li class="sidebar-menu-item">
+                                        <a class="sidebar-menu-button"
+                                           href="../quiz/Pertemuan (12)/quiz.php">
+                                            <span class="sidebar-menu-text">Tugas Pertemuan 12</span>
+                                        </a>
+                                    </li>
+                                    <li class="sidebar-menu-item">
+                                        <a class="sidebar-menu-button"
+                                           href="../quiz/Pertemuan (13)/quiz.php">
+                                            <span class="sidebar-menu-text">Tugas Pertemuan 13</span>
+                                        </a>
+                                    </li>
+                                    <li class="sidebar-menu-item">
+                                        <a class="sidebar-menu-button"
+                                           href="../quiz/Pertemuan (14)/quiz.php">
+                                            <span class="sidebar-menu-text">Tugas Pertemuan 14</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            
+                            <div class="sidebar-heading">Tugas</div>
+                            <ul class="sidebar-menu">
+
                                 <li class="sidebar-menu-item">
                                     <a class="sidebar-menu-button"
                                     href="../../../quiz/Pertemuan (1)/quiz.php">
@@ -531,7 +633,7 @@ if (empty($_SESSION['username']) or empty($_SESSION['level'])) {
                                     <a class="sidebar-menu-button"
                                     href="../../presention.php">
                                         <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left">people</span>
-                                        <span class="sidebar-menu-text">Pertemuan 1</span>
+                                        <span class="sidebar-menu-text">Daftar Hadir Peserta</span>
                                     </a>
                                 </li>
                             </li>
