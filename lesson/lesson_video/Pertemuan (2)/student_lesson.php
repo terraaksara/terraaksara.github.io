@@ -158,8 +158,8 @@
                             <h1 class="text-white flex m-0">Menjadi Guru</h1>
                         </div>
 
-                        <p class="hero__lead measure-hero-lead text-white-50 mb-24pt">Silahkan Download Materi Dengan Mengklik Tombol Dibawah ini</p>
-                        <a href="https://drive.google.com/file/d/1yS6g3BGjaeEacDszHAuz3t6vc1hsNyD5/view?usp=sharing"><button type="button" class="btn btn-outline-secondary">Download Materi 1</button></a>
+                        <p class="hero__lead measure-hero-lead text-white-50 mb-24pt">Jenis-Jenis Buku Yang Wajib Anda Tahu</p>
+                        <a href="https://drive.google.com/file/d/1tTuBLe_SkV4kAgYA9A3VWdyOoyuR9jUU/view?usp=sharing"><button type="button" class="btn btn-outline-secondary">Download Materi 1</button></a>
 
                 </div>
 
@@ -219,6 +219,14 @@
                       href="student_lesson.php">
                           <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left">home</span>
                           <span class="sidebar-menu-text">Menentukan Tema</span>
+                      </a>
+                  </li>
+                  
+                  <li class="sidebar-menu-item active">
+                      <a class="sidebar-menu-button"
+                      href="student_lesson.php">
+                          <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left">home</span>
+                          <span class="sidebar-menu-text">Topik Buku Untuk Guru</span>
                       </a>
                   </li>
               </ul>

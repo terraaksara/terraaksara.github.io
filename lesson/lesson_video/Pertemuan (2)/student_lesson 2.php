@@ -155,11 +155,11 @@
                         </div>
 
                         <div class="d-flex flex-wrap align-items-end mb-16pt">
-                            <h1 class="text-white flex m-0">Kenapa Harus Menulis Buku?</h1>
+                            <h1 class="text-white flex m-0">Menjadi Guru</h1>
                         </div>
 
-                        <p class="hero__lead measure-hero-lead text-white mb-24pt">Silahkan Download Materi Dengan Mengklik Tombol Dibawah ini</p>
-                        <a href="https://drive.google.com/file/d/1yS6g3BGjaeEacDszHAuz3t6vc1hsNyD5/view?usp=sharing"><button type="button" class="btn btn-outline-warning">Download Materi 1</button></a>
+                        <p class="hero__lead measure-hero-lead text-white-50 mb-24pt">Menentukan Tema</p>
+                        <a href="https://drive.google.com/file/d/1-VIGarN2xCtW59m8SSlnnwj546zgPBdZ/view?usp=sharing"><button type="button" class="btn btn-outline-secondary">Download Materi 1</button></a>
 
                 </div>
 
@@ -206,11 +206,11 @@
               <div class="sidebar-heading">Materi</div>
               <ul class="sidebar-menu">
 
-                  <li class="sidebar-menu-item active">
+                  <li class="sidebar-menu-item">
                       <a class="sidebar-menu-button"
                       href="student_lesson.php">
                           <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left">home</span>
-                          <span class="sidebar-menu-text">Kenapa Harus Menulis Buku?</span>
+                          <span class="sidebar-menu-text">Jenis-Jenis Buku Yang Wajib Anda tahu</span>
                       </a>
                   </li>
                   
@@ -218,23 +218,7 @@
                       <a class="sidebar-menu-button"
                       href="student_lesson.php">
                           <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left">home</span>
-                          <span class="sidebar-menu-text">Persiapan Awal Menulis Buku</span>
-                      </a>
-                  </li>
-                  
-                  <li class="sidebar-menu-item active">
-                      <a class="sidebar-menu-button"
-                      href="student_lesson.php">
-                          <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left">home</span>
-                          <span class="sidebar-menu-text">Mengatasi Kendala dan Hambatan Saat Menulis</span>
-                      </a>
-                  </li>
-                  
-                  <li class="sidebar-menu-item active">
-                      <a class="sidebar-menu-button"
-                      href="student_lesson.php">
-                          <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left">home</span>
-                          <span class="sidebar-menu-text">Menulis Kisah Memoar Inspiratif</span>
+                          <span class="sidebar-menu-text">Menentukan Tema</span>
                       </a>
                   </li>
               </ul>
@@ -243,7 +227,7 @@
 
                   <li class="sidebar-menu-item">
                       <a class="sidebar-menu-button"
-                      href="../../../quiz/Pertemuan (1)/quiz.php">
+                      href="../../../quiz/Pertemuan (2)/quiz.php">
                           <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left">content_copy</span>
                           <span class="sidebar-menu-text">Menulis Kata</span>
                       </a>
