@@ -1748,55 +1748,258 @@
  <!-- Drawer -->
 
  <div class="mdk-drawer js-mdk-drawer"
- id="default-drawer">
-<div class="mdk-drawer__content">
-    <div class="sidebar sidebar-dark-pickled-bluewood sidebar-left"
-         data-perfect-scrollbar>
+             id="default-drawer">
+            <div class="mdk-drawer__content">
+                <div class="sidebar sidebar-dark-pickled-bluewood sidebar-left fixed-top"
+                     data-perfect-scrollbar>
 
-        <!-- Sidebar Content -->
+                    <!-- Sidebar Content -->
 
-        <a href="../beranda/peserta.php"
-           class="sidebar-brand ">
-            <!-- <img class="sidebar-brand-icon" src="../../public/images/illustration/student/128/white.svg" alt="Luma"> -->
+                    <a href="../index.php"
+                       class="sidebar-brand ">
+                        <!-- <img class="sidebar-brand-icon" src="../../public/images/illustration/student/128/white.svg" alt="Luma"> -->
 
-            <span class="avatar avatar-xl sidebar-brand-icon h-auto">
+                        <span class="avatar avatar-xl sidebar-brand-icon h-auto">
 
-                <span class="avatar-title rounded bg-primary"><img src="../../public/images/illustration/student/128/white.svg"
-                         class="img-fluid"
-                         alt="logo" /></span>
+                            <span class="avatar-title rounded bg-primary"><img src="../../public/images/illustration/student/128/white.svg"
+                                     class="img-fluid"
+                                     alt="logo" /></span>
 
-            </span>
+                        </span>
 
-            <span>Wisata Literasi<br>Guru</span>
-        </a>
-        <div class="sidebar-heading">Home</div>
-        <ul class="sidebar-menu">
+                        <span>Wisata Literasi<br>Guru</span>
+                    </a>
+                    <div class="sidebar-heading">Home</div>
+                    <ul class="sidebar-menu">
 
-            <li class="sidebar-menu-item">
-                <a class="sidebar-menu-button"
-                href="../beranda/peserta.php">
-                    <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left">home</span>
-                    <span class="sidebar-menu-text">Home</span>
-                </a>
-            </li>
-        </ul>
+                        <li class="sidebar-menu-item active">
+                            <a class="sidebar-menu-button"
+                            href="../index.php">
+                                <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left">home</span>
+                                <span class="sidebar-menu-text">Home</span>
+                            </a>
+                        </li>
+                    </ul>
 
-        <div class="sidebar-heading">Peserta WLG</div>
-        <ul class="sidebar-menu">
+                    <div class="sidebar-heading">Video Pembelajaran</div>
+                    <ul class="sidebar-menu">
 
-            <li class="sidebar-menu-item active">
-                <a class="sidebar-menu-button"
-                   href="course.html">
-                    <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left">school</span>
-                    <span class="sidebar-menu-text">Video Pembelajaran</span>
-                </a>
-            </li>
-        </ul>
-        <!-- // END Sidebar Content -->
+                            <li class="sidebar-menu-item">
+                                <a class="sidebar-menu-button js-sidebar-collapse"
+                                   data-toggle="collapse"
+                                   href="#enterprise_menu">
+                                    <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left">school</span>
+                                    Pertemuan
+                                    <span class="ml-auto sidebar-menu-toggle-icon"></span>
+                                </a>
+                                <ul class="sidebar-submenu collapse sm-indent"
+                                    id="enterprise_menu">
+                                    <li class="sidebar-menu-item">
+                                        <a class="sidebar-menu-button"
+                                           href="lesson_video/Pertemuan (1)/student_lesson.php">
+                                            <span class="sidebar-menu-text">Pertemuan 1</span>
+                                        </a>
+                                    </li>
+                                    <li class="sidebar-menu-item">
+                                        <a class="sidebar-menu-button"
+                                           href="lesson_video/Pertemuan (2)/student_lesson.php">
+                                            <span class="sidebar-menu-text">Pertemuan 2</span>
+                                        </a>
+                                    </li>
+                                    <li class="sidebar-menu-item">
+                                        <a class="sidebar-menu-button"
+                                           href="lesson_video/Pertemuan (3)/student_lesson.php">
+                                            <span class="sidebar-menu-text">Pertemuan 3</span>
+                                        </a>
+                                    </li>
+                                    <li class="sidebar-menu-item">
+                                        <a class="sidebar-menu-button"
+                                           href="lesson_video/Pertemuan (4)/student_lesson.php">
+                                            <span class="sidebar-menu-text">Pertemuan 4</span>
+                                        </a>
+                                    </li>
+                                    <li class="sidebar-menu-item">
+                                        <a class="sidebar-menu-button"
+                                           href="lesson_video/Pertemuan (5)/student_lesson.php">
+                                            <span class="sidebar-menu-text">Pertemuan 5</span>
+                                        </a>
+                                    </li>
+                                    <li class="sidebar-menu-item">
+                                        <a class="sidebar-menu-button"
+                                           href="lesson_video/Pertemuan (6)/student_lesson.php">
+                                            <span class="sidebar-menu-text">Pertemuan 6</span>
+                                        </a>
+                                    </li>
+                                    <li class="sidebar-menu-item">
+                                        <a class="sidebar-menu-button"
+                                           href="lesson_video/Pertemuan (7)/student_lesson.php">
+                                            <span class="sidebar-menu-text">Pertemuan 7</span>
+                                        </a>
+                                    </li>
+                                    <li class="sidebar-menu-item">
+                                        <a class="sidebar-menu-button"
+                                           href="lesson_video/Pertemuan (8)/student_lesson.php">
+                                            <span class="sidebar-menu-text">Pertemuan 8</span>
+                                        </a>
+                                    </li>
+                                    <li class="sidebar-menu-item">
+                                        <a class="sidebar-menu-button"
+                                           href="lesson_video/Pertemuan (9)/student_lesson.php">
+                                            <span class="sidebar-menu-text">Pertemuan 9</span>
+                                        </a>
+                                    </li>
+                                    <li class="sidebar-menu-item">
+                                        <a class="sidebar-menu-button"
+                                           href="lesson_video/Pertemuan (10)/student_lesson.php">
+                                            <span class="sidebar-menu-text">Pertemuan 10</span>
+                                        </a>
+                                    </li>
+                                    <li class="sidebar-menu-item">
+                                        <a class="sidebar-menu-button"
+                                           href="lesson_video/Pertemuan (11)/student_lesson.php">
+                                            <span class="sidebar-menu-text">Pertemuan 11</span>
+                                        </a>
+                                    </li>
+                                    <li class="sidebar-menu-item">
+                                        <a class="sidebar-menu-button"
+                                           href="lesson_video/Pertemuan (12)/student_lesson.php">
+                                            <span class="sidebar-menu-text">Pertemuan 12</span>
+                                        </a>
+                                    </li>
+                                    <li class="sidebar-menu-item">
+                                        <a class="sidebar-menu-button"
+                                           href="lesson_video/Pertemuan (13)/student_lesson.php">
+                                            <span class="sidebar-menu-text">Pertemuan 13</span>
+                                        </a>
+                                    </li>
+                                    <li class="sidebar-menu-item">
+                                        <a class="sidebar-menu-button"
+                                           href="lesson_video/Pertemuan (14)/student_lesson.php">
+                                            <span class="sidebar-menu-text">Pertemuan 14</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            <div class="sidebar-heading">Tugas</div>
+                            <ul class="sidebar-menu">
 
+                            <li class="sidebar-menu-item">
+                                <a class="sidebar-menu-button js-sidebar-collapse"
+                                   data-toggle="collapse"
+                                   href="#quiz_menu">
+                                    <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left">content_copy</span>
+                                    Tugas Peserta WLG
+                                    <span class="ml-auto sidebar-menu-toggle-icon"></span>
+                                </a>
+                                <ul class="sidebar-submenu collapse sm-indent"
+                                    id="quiz_menu">
+                                    <li class="sidebar-menu-item">
+                                        <a class="sidebar-menu-button"
+                                           href="../quiz/Pertemuan (1)/quiz.php">
+                                            <span class="sidebar-menu-text">Tugas Pertemuan 1</span>
+                                        </a>
+                                    </li>
+                                    <li class="sidebar-menu-item">
+                                        <a class="sidebar-menu-button"
+                                           href="../quiz/Pertemuan (2)/quiz.php">
+                                            <span class="sidebar-menu-text">Tugas Pertemuan 2</span>
+                                        </a>
+                                    </li>
+                                    <li class="sidebar-menu-item">
+                                        <a class="sidebar-menu-button"
+                                           href="../quiz/Pertemuan (3)/quiz.php">
+                                            <span class="sidebar-menu-text">Tugas Pertemuan 3</span>
+                                        </a>
+                                    </li>
+                                    <li class="sidebar-menu-item">
+                                        <a class="sidebar-menu-button"
+                                           href="../quiz/Pertemuan (4)/quiz.php">
+                                            <span class="sidebar-menu-text">Tugas Pertemuan 4</span>
+                                        </a>
+                                    </li>
+                                    <li class="sidebar-menu-item">
+                                        <a class="sidebar-menu-button"
+                                           href="../quiz/Pertemuan (5)/quiz.php">
+                                            <span class="sidebar-menu-text">Tugas Pertemuan 5</span>
+                                        </a>
+                                    </li>
+                                    <li class="sidebar-menu-item">
+                                        <a class="sidebar-menu-button"
+                                           href="../quiz/Pertemuan (6)/quiz.php">
+                                            <span class="sidebar-menu-text">Tugas Pertemuan 6</span>
+                                        </a>
+                                    </li>
+                                    <li class="sidebar-menu-item">
+                                        <a class="sidebar-menu-button"
+                                           href="../quiz/Pertemuan (7)/quiz.php">
+                                            <span class="sidebar-menu-text">Tugas Pertemuan 7</span>
+                                        </a>
+                                    </li>
+                                    <li class="sidebar-menu-item">
+                                        <a class="sidebar-menu-button"
+                                           href="../quiz/Pertemuan (8)/quiz.php">
+                                            <span class="sidebar-menu-text">Tugas Pertemuan 8</span>
+                                        </a>
+                                    </li>
+                                    <li class="sidebar-menu-item">
+                                        <a class="sidebar-menu-button"
+                                           href="../quiz/Pertemuan (9)/quiz.php">
+                                            <span class="sidebar-menu-text">Tugas Pertemuan 9</span>
+                                        </a>
+                                    </li>
+                                    <li class="sidebar-menu-item">
+                                        <a class="sidebar-menu-button"
+                                           href="../quiz/Pertemuan (10)/quiz.php">
+                                            <span class="sidebar-menu-text">Tugas Pertemuan 10</span>
+                                        </a>
+                                    </li>
+                                    <li class="sidebar-menu-item">
+                                        <a class="sidebar-menu-button"
+                                           href="../quiz/Pertemuan (11)/quiz.php">
+                                            <span class="sidebar-menu-text">Tugas Pertemuan 11</span>
+                                        </a>
+                                    </li>
+                                    <li class="sidebar-menu-item">
+                                        <a class="sidebar-menu-button"
+                                           href="../quiz/Pertemuan (12)/quiz.php">
+                                            <span class="sidebar-menu-text">Tugas Pertemuan 12</span>
+                                        </a>
+                                    </li>
+                                    <li class="sidebar-menu-item">
+                                        <a class="sidebar-menu-button"
+                                           href="../quiz/Pertemuan (13)/quiz.php">
+                                            <span class="sidebar-menu-text">Tugas Pertemuan 13</span>
+                                        </a>
+                                    </li>
+                                    <li class="sidebar-menu-item">
+                                        <a class="sidebar-menu-button"
+                                           href="../quiz/Pertemuan (14)/quiz.php">
+                                            <span class="sidebar-menu-text">Tugas Pertemuan 14</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            
+                            <div class="sidebar-heading">Daftar Hadir</div>
+                            <ul class="sidebar-menu">
+
+                                <li class="sidebar-menu-item">
+                                    <a class="sidebar-menu-button"
+                                    href="presention.php">
+                                        <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left">people</span>
+                                        <span class="sidebar-menu-text">Daftar Hadir Peserta</span>
+                                    </a>
+                                </li>
+                            </li>
+                    </ul>
+                   
+
+                    
+                    <!-- // END Sidebar Content -->
+
+                </div>
+            </div>
         </div>
-    </div>
-    </div>
+
+        <!-- // END Drawer -->
 
 <!-- // END Drawer -->
 
