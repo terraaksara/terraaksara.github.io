@@ -210,7 +210,7 @@
                       <a class="sidebar-menu-button"
                       href="student_lesson.php">
                           <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left">home</span>
-                          <span class="sidebar-menu-text">Menjadi Guru Istimewa</span>
+                          <span class="sidebar-menu-text">PUEBI</span>
                       </a>
                   </li>
               </ul>
