@@ -234,7 +234,7 @@
                       <a class="sidebar-menu-button"
                       href="student_lesson.php">
                           <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left">home</span>
-                          <span class="sidebar-menu-text">Menulis Kisah Memoar Inspiratif</span>
+                          <span class="sidebar-menu-text"><p>Menulis Kisah Memoar Inspiratif</p></span>
                       </a>
                   </li>
               </ul>
