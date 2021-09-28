@@ -206,7 +206,7 @@
 
                   <span>Wisata Literasi<br>Guru</span>
               </a>
-              <div class="sidebar-heading row mt-n4">Materi</div>
+              <div class="sidebar-heading">Materi</div>
               <ul class="sidebar-menu">
 
                   <li class="sidebar-menu-item active" style="margin-top:13px;">

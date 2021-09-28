@@ -206,19 +206,19 @@
               <div class="sidebar-heading">Materi</div>
               <ul class="sidebar-menu">
 
-                  <li class="sidebar-menu-item active">
+                  <li class="sidebar-menu-item active" style="margin-top:13px;">
                       <a class="sidebar-menu-button"
                       href="student_lesson.php">
                           <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left">home</span>
-                          <span class="sidebar-menu-text">Layout</span>
+                          <span class="sidebar-menu-text" style="line-height: 20px;">Layout</span>
                       </a>
                   </li>
                   
-                  <li class="sidebar-menu-item active">
+                  <li class="sidebar-menu-item" style="margin-top:13px;">
                       <a class="sidebar-menu-button"
                       href="student_lesson.php">
                           <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left">home</span>
-                          <span class="sidebar-menu-text">Membuat Tulisan Menjadi Lebih Benyawa</span>
+                          <span class="sidebar-menu-text" style="line-height: 20px;">Membuat Tulisan Menjadi Lebih Benyawa</span>
                       </a>
                   </li>
               </ul>
@@ -229,7 +229,7 @@
                       <a class="sidebar-menu-button"
                       href="../../../quiz/Pertemuan (10)/quiz.php">
                           <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left">content_copy</span>
-                          <span class="sidebar-menu-text">Menulis Kata</span>
+                          <span class="sidebar-menu-text" style="line-height: 20px;">Menulis Kata</span>
                       </a>
                   </li>
               </ul>
@@ -240,7 +240,7 @@
                       <a class="sidebar-menu-button"
                       href="../../presention.php">
                           <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left">people</span>
-                          <span class="sidebar-menu-text">Pertemuan 1</span>
+                          <span class="sidebar-menu-text" style="line-height: 20px;">Pertemuan 1</span>
                       </a>
                   </li>
               </ul>

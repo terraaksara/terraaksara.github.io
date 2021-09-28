@@ -241,7 +241,7 @@
               <div class="sidebar-heading">Tugas</div>
               <ul class="sidebar-menu">
 
-                  <li class="sidebar-menu-item">
+                  <li class="sidebar-menu-item" >
                       <a class="sidebar-menu-button"
                       href="../../../quiz/Pertemuan (1)/quiz.php">
                           <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left">content_copy</span>
