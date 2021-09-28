@@ -213,7 +213,7 @@
                       <a class="sidebar-menu-button"
                       href="student_lesson.php">
                           <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left">home</span>
-                          <span class="sidebar-menu-text" style="line-height: 12px;">Kenapa Harus Menulis Buku?</span>
+                          <span class="sidebar-menu-text" style="line-height: 15px;">Kenapa Harus Menulis Buku?</span>
                       </a>
                   </li>
                   
