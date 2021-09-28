@@ -206,35 +206,35 @@
               <div class="sidebar-heading">Materi</div>
               <ul class="sidebar-menu">
 
-                  <li class="sidebar-menu-item">
+                  <li class="sidebar-menu-item" style="margin:13px;">
                       <a class="sidebar-menu-button"
                       href="student_lesson.php">
                           <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left">home</span>
-                          <span class="sidebar-menu-text">Kenapa Harus Menulis Buku?</span>
+                          <span class= "sidebar-menu-text" style="line-height: 20px;">Kenapa Harus Menulis Buku?</span>
                       </a>
                   </li>
                   
-                  <li class="sidebar-menu-item active">
+                  <li class="sidebar-menu-item active"  style="margin:13px;">
                       <a class="sidebar-menu-button"
                       href="student_lesson.php">
                           <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left">home</span>
-                          <span class="sidebar-menu-text">Persiapan Awal Menulis Buku</span>
+                          <span class= "sidebar-menu-text" style="line-height: 20px;">Persiapan Awal Menulis Buku</span>
                       </a>
                   </li>
                   
-                  <li class="sidebar-menu-item">
+                  <li class="sidebar-menu-item" style="margin:13px;">
                       <a class="sidebar-menu-button"
                       href="student_lesson.php">
                           <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left">home</span>
-                          <span class="sidebar-menu-text">Mengatasi Kendala dan Hambatan Saat Menulis</span>
+                          <span class= "sidebar-menu-text" style="line-height: 20px;">Mengatasi Kendala dan Hambatan Saat Menulis</span>
                       </a>
                   </li>
                   
-                  <li class="sidebar-menu-item">
+                  <li class="sidebar-menu-item" style="margin:13px;">
                       <a class="sidebar-menu-button"
                       href="student_lesson.php">
                           <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left">home</span>
-                          <span class="sidebar-menu-text"><p>Menulis Kisah Memoar Inspiratif</p></span>
+                          <span class= "sidebar-menu-text" style="line-height: 20px;"><p>Menulis Kisah Memoar Inspiratif</p></span>
                       </a>
                   </li>
               </ul>
@@ -245,7 +245,7 @@
                       <a class="sidebar-menu-button"
                       href="../../../quiz/Pertemuan (1)/quiz.php">
                           <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left">content_copy</span>
-                          <span class="sidebar-menu-text">Menulis Kata</span>
+                          <span class= "sidebar-menu-text" style="line-height: 20px;">Menulis Kata</span>
                       </a>
                   </li>
               </ul>
@@ -256,7 +256,7 @@
                       <a class="sidebar-menu-button"
                       href="../../presention.php">
                           <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left">people</span>
-                          <span class="sidebar-menu-text">Pertemuan 1</span>
+                          <span class= "sidebar-menu-text" style="line-height: 20px;">Pertemuan 1</span>
                       </a>
                   </li>
               </ul>
