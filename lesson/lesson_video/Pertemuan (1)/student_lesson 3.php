@@ -210,7 +210,7 @@
                       <a class="sidebar-menu-button"
                       href="student_lesson.php">
                           <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left">home</span>
-                          <span class="sidebar-menu-text">Kenapa Harus Menulis Buku?</span>
+                          <span class= "sidebar-menu-text" style="line-height: 18px;">Kenapa Harus Menulis Buku?</span>
                       </a>
                   </li>
                   
@@ -218,7 +218,7 @@
                       <a class="sidebar-menu-button"
                       href="student_lesson.php">
                           <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left">home</span>
-                          <span class="sidebar-menu-text">Persiapan Awal Menulis Buku</span>
+                          <span class= "sidebar-menu-text" style="line-height: 18px;">Persiapan Awal Menulis Buku</span>
                       </a>
                   </li>
                   
@@ -226,7 +226,7 @@
                       <a class="sidebar-menu-button"
                       href="student_lesson.php">
                           <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left">home</span>
-                          <span class="sidebar-menu-text">Mengatasi Kendala dan Hambatan Saat Menulis</span>
+                          <span class= "sidebar-menu-text" style="line-height: 18px;">Mengatasi Kendala dan Hambatan Saat Menulis</span>
                       </a>
                   </li>
                   
@@ -234,7 +234,7 @@
                       <a class="sidebar-menu-button"
                       href="student_lesson.php">
                           <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left">home</span>
-                          <span class="sidebar-menu-text">Menulis Kisah Memoar Inspiratif</span>
+                          <span class= "sidebar-menu-text" style="line-height: 18px;">Menulis Kisah Memoar Inspiratif</span>
                       </a>
                   </li>
               </ul>
@@ -245,7 +245,7 @@
                       <a class="sidebar-menu-button"
                       href="../../../quiz/Pertemuan (1)/quiz.php">
                           <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left">content_copy</span>
-                          <span class="sidebar-menu-text">Menulis Kata</span>
+                          <span class= "sidebar-menu-text" style="line-height: 18px;">Menulis Kata</span>
                       </a>
                   </li>
               </ul>
@@ -256,7 +256,7 @@
                       <a class="sidebar-menu-button"
                       href="../../presention.php">
                           <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left">people</span>
-                          <span class="sidebar-menu-text">Pertemuan 1</span>
+                          <span class= "sidebar-menu-text" style="line-height: 18px;">Pertemuan 1</span>
                       </a>
                   </li>
               </ul>
