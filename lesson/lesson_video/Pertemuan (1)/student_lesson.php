@@ -47,6 +47,9 @@
               href="../../../public/css/app.css"
               rel="stylesheet">
 
+        <!-- Costume CSS -->
+        <link rel="text/css" href="../../../assets/css/custom.css">
+
     </head>
 
     <body class="layout-sticky-subnav layout-default ">
@@ -210,11 +213,11 @@
                       <a class="sidebar-menu-button"
                       href="student_lesson.php">
                           <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left">home</span>
-                          <span class="sidebar-menu-text">Kenapa Harus Menulis Buku?</span>
+                          <span class="sidebar-menu-text" style="line-height: 1px;">Kenapa Harus Menulis Buku?</span>
                       </a>
                   </li>
                   
-                  <li class="sidebar-menu-item active">
+                  <li class="sidebar-menu-item">
                       <a class="sidebar-menu-button"
                       href="student_lesson.php">
                           <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left">home</span>
@@ -222,7 +225,7 @@
                       </a>
                   </li>
                   
-                  <li class="sidebar-menu-item active">
+                  <li class="sidebar-menu-item">
                       <a class="sidebar-menu-button"
                       href="student_lesson.php">
                           <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left">home</span>
@@ -230,7 +233,7 @@
                       </a>
                   </li>
                   
-                  <li class="sidebar-menu-item active">
+                  <li class="sidebar-menu-item">
                       <a class="sidebar-menu-button"
                       href="student_lesson.php">
                           <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left">home</span>
