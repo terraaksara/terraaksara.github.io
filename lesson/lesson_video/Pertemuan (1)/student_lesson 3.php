@@ -206,7 +206,7 @@
               <div class="sidebar-heading">Materi</div>
               <ul class="sidebar-menu">
 
-                  <li class="sidebar-menu-item" style="margin:13px;">
+                  <li class="sidebar-menu-item" style="margin-top:13px;">
                       <a class="sidebar-menu-button"
                       href="student_lesson.php">
                           <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left">home</span>
@@ -214,7 +214,7 @@
                       </a>
                   </li>
                   
-                  <li class="sidebar-menu-item" style="margin:13px;">
+                  <li class="sidebar-menu-item" style="margin-top:13px;">
                       <a class="sidebar-menu-button"
                       href="student_lesson.php">
                           <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left">home</span>
@@ -222,7 +222,7 @@
                       </a>
                   </li>
                   
-                  <li class="sidebar-menu-item" style="margin:13px;">
+                  <li class="sidebar-menu-item" style="margin-top:13px;">
                       <a class="sidebar-menu-button"
                       href="student_lesson.php">
                           <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left">home</span>
@@ -230,7 +230,7 @@
                       </a>
                   </li>
                   
-                  <li class="sidebar-menu-item active" style="margin:13px;">
+                  <li class="sidebar-menu-item active" style="margin-top:13px;">
                       <a class="sidebar-menu-button"
                       href="student_lesson.php">
                           <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left">home</span>
