@@ -214,9 +214,9 @@
                       </a>
                   </li>
                   
-                  <li class="sidebar-menu-item" style="margin-top:13px;">
+                  <li class="sidebar-menu-item active" style="margin-top:13px;">
                       <a class="sidebar-menu-button"
-                      href="student_lesson.php">
+                      href="student_lesson 1.php">
                           <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left">home</span>
                           <span class="sidebar-menu-text" style="line-height: 20px;">Membuat Tulisan Menjadi Lebih Benyawa</span>
                       </a>
