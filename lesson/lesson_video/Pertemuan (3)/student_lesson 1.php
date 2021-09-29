@@ -159,7 +159,7 @@
                         </div>
 
                         <p class="hero__lead measure-hero-lead text-white-50 mb-24pt">Silahkan Download Materi Dengan Mengklik Tombol Dibawah ini</p>
-                        <a href="https://drive.google.com/file/d/1yS6g3BGjaeEacDszHAuz3t6vc1hsNyD5/view?usp=sharing"><button type="button" class="btn btn-outline-secondary">Download Materi 1</button></a>
+                        <a href="https://drive.google.com/file/d/1ftEJ1YUFL3qyeekqVcfnj8-LDM9Qn8k6/view?usp=sharing><button type="button" class="btn btn-outline-secondary">Download Materi 1</button></a>
 
                 </div>
 
