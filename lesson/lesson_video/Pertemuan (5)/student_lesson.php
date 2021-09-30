@@ -149,7 +149,7 @@
                                     </a>
                                 </div>
                                 <div class="player__embed d-none">
-                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/dUFV1l17OW4?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/VO2iRMOsA3Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                 </div>
                             </div>
                         </div>
@@ -210,7 +210,7 @@
                       <a class="sidebar-menu-button"
                       href="student_lesson.php">
                           <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left">home</span>
-                          <span class="sidebar-menu-text" style="line-height: 20px;">Diksi Sedeharan</span>
+                          <span class="sidebar-menu-text" style="line-height: 20px;">Diksi Sederhana</span>
                       </a>
                   </li>
               </ul>

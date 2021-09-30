@@ -149,7 +149,7 @@
                                     </a>
                                 </div>
                                 <div class="player__embed d-none">
-                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/dUFV1l17OW4?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/tucHBNhwtQs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                 </div>
                             </div>
                         </div>
@@ -210,7 +210,21 @@
                       <a class="sidebar-menu-button"
                       href="student_lesson.php">
                           <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left">home</span>
-                          <span class="sidebar-menu-text" style="line-height: 20px;">PUEBI</span>
+                          <span class="sidebar-menu-text" style="line-height: 20px;">PUEBI Part 1</span>
+                      </a>
+                  </li>
+                  <li class="sidebar-menu-item " style="margin-top:13px;">
+                      <a class="sidebar-menu-button"
+                      href="student_lesson part1.php">
+                          <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left">home</span>
+                          <span class="sidebar-menu-text" style="line-height: 20px;">PUEBI Part 2</span>
+                      </a>
+                  </li>
+                  <li class="sidebar-menu-item" style="margin-top:13px;">
+                      <a class="sidebar-menu-button"
+                      href="student_lesson part2.php">
+                          <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left">home</span>
+                          <span class="sidebar-menu-text" style="line-height: 20px;">PUEBI Part 3</span>
                       </a>
                   </li>
               </ul>

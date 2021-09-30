@@ -149,7 +149,7 @@
                                     </a>
                                 </div>
                                 <div class="player__embed d-none">
-                                <iframe width="560" height="315" src="https://www.youtube.com/embed/bbBv26d2djI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/gt94dudEs80" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                 </div>
                             </div>
                         </div>
@@ -159,7 +159,7 @@
                         </div>
 
                         <p class="hero__lead measure-hero-lead text-white-50 mb-24pt">Silahkan Download Materi Dengan Mengklik Tombol Dibawah ini</p>
-                        <a href="https://drive.google.com/file/d/1qjTbRCLxoStBhsWJbKLfgWxWuD14JZ67/view?usp=sharing"><button type="button" class="btn btn-outline-secondary">Download Materi 1</button></a>
+                        <a href="https://drive.google.com/file/d/1WfAd_d6O89SqP2EmmE3p5ltz5HUKUN2w/view?usp=sharing"><button type="button" class="btn btn-outline-secondary">Download Materi 1</button></a>
 
                 </div>
 
@@ -206,27 +206,25 @@
               <div class="sidebar-heading">Materi</div>
               <ul class="sidebar-menu">
 
-                  <li class="sidebar-menu-item active" style="margin-top:13px;">
+              <li class="sidebar-menu-item " style="margin-top:13px;">
                       <a class="sidebar-menu-button"
                       href="student_lesson.php">
                           <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left">home</span>
-                          <span class="sidebar-menu-text" style="line-height: 20px;">Penerbitan</span>
+                          <span class="sidebar-menu-text" style="line-height: 20px;">PUEBI Part 1</span>
                       </a>
                   </li>
-                  
-                  <li class="sidebar-menu-item" style="margin-top:13px;">
+                  <li class="sidebar-menu-item " style="margin-top:13px;">
                       <a class="sidebar-menu-button"
-                      href="student_lesson 1.php">
+                      href="student_lesson part1.php">
                           <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left">home</span>
-                          <span class="sidebar-menu-text" style="line-height: 20px;">Writerpreneur</span>
+                          <span class="sidebar-menu-text" style="line-height: 20px;">PUEBI Part 2</span>
                       </a>
                   </li>
-                  
-                  <li class="sidebar-menu-item" style="margin-top:13px;">
+                  <li class="sidebar-menu-item active" style="margin-top:13px;">
                       <a class="sidebar-menu-button"
-                      href="student_lesson 2.php">
+                      href="student_lesson part2.php">
                           <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left">home</span>
-                          <span class="sidebar-menu-text" style="line-height: 20px;">Menulis Artikel/Surat Cinta Untuk Kemendikubud</span>
+                          <span class="sidebar-menu-text" style="line-height: 20px;">PUEBI Part 3</span>
                       </a>
                   </li>
               </ul>
@@ -235,7 +233,7 @@
 
                   <li class="sidebar-menu-item">
                       <a class="sidebar-menu-button"
-                      href="../../../quiz/Pertemuan (12)/quiz.php">
+                      href="../../../quiz/Pertemuan (7)/quiz.php">
                           <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left">content_copy</span>
                           <span class="sidebar-menu-text" style="line-height: 20px;">Menulis Kata</span>
                       </a>

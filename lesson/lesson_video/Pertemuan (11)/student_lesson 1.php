@@ -149,7 +149,7 @@
                                     </a>
                                 </div>
                                 <div class="player__embed d-none">
-                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/dUFV1l17OW4?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/TUzZaxyI7Cg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                 </div>
                             </div>
                         </div>
@@ -159,7 +159,7 @@
                         </div>
 
                         <p class="hero__lead measure-hero-lead text-white-50 mb-24pt">Silahkan Download Materi Dengan Mengklik Tombol Dibawah ini</p>
-                        <a href="https://drive.google.com/file/d/1yS6g3BGjaeEacDszHAuz3t6vc1hsNyD5/view?usp=sharing"><button type="button" class="btn btn-outline-secondary">Download Materi 1</button></a>
+                        <a href="https://drive.google.com/file/d/1YXpPlLMw3ewvipEYTQbnxLgBcHZ-3Tf1/view?usp=sharing"><button type="button" class="btn btn-outline-secondary">Download Materi 1</button></a>
 
                 </div>
 
