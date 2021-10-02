@@ -149,7 +149,7 @@
                                     </a>
                                 </div>
                                 <div class="player__embed d-none">
-                                <iframe width="560" height="315" src="https://www.youtube.com/embed/g2AsD0Wk5dM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/g2AsD0Wk5dM?start=10" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                 </div>
                             </div>
                         </div>
