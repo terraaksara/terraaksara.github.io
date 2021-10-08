@@ -138,11 +138,13 @@ if (empty($_SESSION['username']) or empty($_SESSION['level'])) {
                     </div>
 
                     <div class="hero container page__container text-center text-md-left py-112pt">
-                        <h1 class="text-white text-shadow">Forum Indonesia Menulis</h1>
-                        <p class="lead measure-hero-lead mx-auto mx-md-0 text-white text-shadow mb-48pt">Wisata Literasi Guru</p>
+                        <h1 class="text-white text-shadow">Selamat Datang</h1>
+                        <p class="lead measure-hero-lead mx-auto mx-md-0 text-white text-shadow mb-48pt">Wisata Literasi Guru<br>-Program Organisasi Pengerak</p>
 
-                        <a href="../mentor/teacher_course.php"
-                           class="btn btn-lg btn-white btn--raised mb-16pt">Lihat Video Pembelajaran</a>
+                        <a href="../supervisior/absen_narasumber.php"
+                           class="btn btn-lg btn-white btn--raised mb-16pt">Absen Sekarang (Narasumber)</a>
+                        <a href="../supervisior/absen_panitia.php"
+                           class="btn btn-lg btn-white btn--raised mb-16pt">Absen Sekarang (Panitia)</a>
 
                     </div>
                 </div>

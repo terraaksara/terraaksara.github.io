@@ -32,6 +32,8 @@ if ($user_valid) {
             header('location:../beranda/peserta.php');
         } else if ($level == "Administrator") {
             header('location:../beranda/mentor.php');
+        } else if ($level == "Supervisior") {
+            header('location:../beranda/supervisior.php');
         }
     } else {
         echo "<script>alert('Maaf, Login Gagal, Password anda tidak sesuai!');document.location='../index.php'</script>";
