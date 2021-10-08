@@ -421,54 +421,7 @@ if (empty($_SESSION['username']) or empty($_SESSION['level'])) {
                         </li>
                     </ul>
 
-                    <div class="sidebar-heading">Peserta WLG</div>
-                    <ul class="sidebar-menu">
-
-                        <li class="sidebar-menu-item">
-                            <a class="sidebar-menu-button"
-                               href="../lesson/course.php">
-                                <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left">school</span>
-                                <span class="sidebar-menu-text">Video Pembelajaran</span>
-                            </a>
-                        </li>
-                    </ul>
-                    <div class="sidebar-heading">Mentor WLG</div>
-                    <ul class="sidebar-menu">
-                        <li class="sidebar-menu-item">
-                            <a class="sidebar-menu-button"
-                               href="../mentor/teacher_profil.php">
-                                <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left">people</span>
-                                <span class="sidebar-menu-text">Profil</span>
-                            </a>
-                        </li>
-                        <li class="sidebar-menu-item">
-                            <a class="sidebar-menu-button"
-                               href="../mentor/teacher_administrasi.php">
-                                <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left">content_copy</span>
-                                <span class="sidebar-menu-text">Administrasi</span>
-                            </a>
-                        </li>
-                        <li class="sidebar-menu-item">
-                            <a class="sidebar-menu-button"
-                               href="../mentor/teacher_course.php">
-                                <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left">people</span>
-                                <span class="sidebar-menu-text">Video Pembelajaran</span>
-                            </a>
-                        </li>
-                        <li class="sidebar-menu-item">
-                            <a class="sidebar-menu-button"
-                               href="../mentor/teacher_isbn.php">
-                                <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left">class</span>
-                                <span class="sidebar-menu-text">ISBN</span>
-                            </a>
-                        </li>
-                    </ul>
-
-                    
-                    <!-- // END Sidebar Content -->
-
-                </div>
-                <div class="sidebar-heading">Supervisior WLG</div>
+                    <div class="sidebar-heading">Supervisior WLG</div>
                     <ul class="sidebar-menu">
                         <li class="sidebar-menu-item">
                             <a class="sidebar-menu-button"
@@ -485,6 +438,10 @@ if (empty($_SESSION['username']) or empty($_SESSION['level'])) {
                             </a>
                         </li>
                     </ul>
+
+                    
+                    <!-- // END Sidebar Content -->
+
 
                     
                     <!-- // END Sidebar Content -->
