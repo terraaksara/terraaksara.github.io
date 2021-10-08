@@ -57,6 +57,7 @@
         <option value="Mentor">Mentor</option>
         <option value="Peserta">Peserta</option>
         <option value="Administrator">Administrator</option>
+        <option value="Supervisior">Supervisior</option>
       </select>
     </div>
 
