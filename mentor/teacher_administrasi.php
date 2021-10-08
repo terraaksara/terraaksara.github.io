@@ -152,15 +152,15 @@
                             <option>--Pilih kelas--</option>
                         </select>
                         </select>
-                        <label for="formGroupExampleInput">Link Tugas</label>
-                        <label name= "link" id="link" class="form-control">
-                                kirim
+                        <label for="formGroupExampleInput">Pertemuan</label>
+                        <label name= "pertemuan" id="pertemuan" class="form-control">
+                            <option>--Pilih Pertemuan--</option>
                         </label>
-                        <label for="formGroupExampleInput">Link Absen</label>
+                        <label for="formGroupExampleInput">Link Daftar Hadir</label>
                         <label name= "absen" id="absen" class="form-control">
                                 kirim
                         </label>
-                        <label for="formGroupExampleInput">Link Pengumpulan Dockumentasi</label>
+                        <label for="formGroupExampleInput">Link Pengumpulan Tugas Mentor</label>
                         <label name= "doc" id="doc" class="form-control">
                                 kirim
                         </label>
@@ -321,20 +321,20 @@ $("#uskelas").html(msg);
 $("#uskelas").change(function(){
 var uskelas = $("#uskelas").val();
 $.ajax({
-url: "../get_data_user/get_user_tugas.php",
+url: "../get_data_user/get_user_pertemuan.php",
 data: "uskelas="+uskelas,
 cache: false,
 success: function(msg){
-$("#tugas").html(msg);
+$("#pertemuan").html(msg);
 }
 });
 });
 
-$("#uskelas").change(function(){
-var kelas = $("#uskelas").val();
+$("#pertemuan").change(function(){
+var pertemuan = $("#pertemuan").val();
 $.ajax({
 url: "../get_data_user/get_user_absen.php",
-data: "uskelas="+kelas,
+data: "pertemuan="+pertemuan,
 cache: false,
 success: function(msg){
 $("#absen").html(msg);
