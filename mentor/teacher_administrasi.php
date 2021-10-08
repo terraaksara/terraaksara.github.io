@@ -153,9 +153,9 @@
                         </select>
                         </select>
                         <label for="formGroupExampleInput">Pertemuan</label>
-                        <label name= "pertemuan" id="pertemuan" class="form-control">
+                        <select name= "pertemuan" id="pertemuan" class="form-control">
                             <option>--Pilih Pertemuan--</option>
-                        </label>
+                        </select>
                         <label for="formGroupExampleInput">Link Daftar Hadir</label>
                         <label name= "absen" id="absen" class="form-control">
                                 kirim
