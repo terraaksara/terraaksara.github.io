@@ -136,6 +136,10 @@
                             }
                         ?>
                         </select>
+                        <label for="formGroupExampleInput">Jenjang</label>
+                        <select name= "jenjang" id="jenjang" class="form-control">
+                            <option>---Pilih Jenjang--</option>
+                        </select>
                         <label for="formGroupExampleInput">Link</label>
                         <label name= "link" id="link" class="form-control">
                                 kirim
@@ -235,6 +239,18 @@ var pertemuan = $("#pertemuan").val();
 $.ajax({
 url: "../get_data_panitia/get_data_panitia.php",
 data: "pertemuan="+pertemuan,
+cache: false,
+success: function(msg){
+$("#jenjang").html(msg);
+}
+});
+});
+
+$("#jenjang").change(function(){
+var pertemuan = $("#jenjang").val();
+$.ajax({
+url: "../get_data_panitia/get_data_panitia.php",
+data: "jenjang="+jenjang,
 cache: false,
 success: function(msg){
 $("#link").html(msg);
