@@ -249,7 +249,7 @@ $("#jenjang").html(msg);
 $("#jenjang").change(function(){
 var pertemuan = $("#jenjang").val();
 $.ajax({
-url: "../get_data_panitia/get_data_jenjang.php",
+url: "../get_data_panitia/get_data_link.php",
 data: "jenjang="+jenjang,
 cache: false,
 success: function(msg){
