@@ -267,7 +267,7 @@ $("#pertemuan").html(msg);
 $("#pertemuan").change(function(){
 var pertemuan = $("#pertemuan").val();
 $.ajax({
-url: "../get_data/get_link_linkabsen.php",
+url: "../get_data_narasumber/get_data_narasumber.php",
 data: "pertemuan="+pertemuan,
 cache: false,
 success: function(msg){
