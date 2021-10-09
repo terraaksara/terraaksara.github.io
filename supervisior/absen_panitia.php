@@ -136,10 +136,6 @@
 							echo "<option value=\"$p[id_abkabkot]\">$p[nama_abkabkot]</option>\n";}
 						?>
                         </select>
-                        <label for="formGroupExampleInput">Kelas</label>
-                        <select name= "abkelas" id= "abkelas" class="form-control">
-                            <option>--Pilih Kelas--</option>
-                        </select>
                         <label for="formGroupExampleInput">Pertemuan</label>
                         <select name= "pertemuan" id="pertemuan" class="form-control">
                             <option>---Pilih Pertemuan--</option>
@@ -241,24 +237,12 @@ $(document).ready(function(){
 $("#abkabkot").change(function(){
 var abkabkot = $("#abkabkot").val();
 $.ajax({
-url: "../get_data/get_data_abkelas.php",
+url: "../get_data/get_data_pertemuan.php",
 data: "abkabkot="+abkabkot,
 cache: false,
 success: function(msg){
 //jika data sukses diambil dari server kita tampilkan
 //di <select id=kota>
-$("#abkelas").html(msg);
-}
-});
-});
-
-$("#abkelas").change(function(){
-var abkelas = $("#abkelas").val();
-$.ajax({
-url: "../get_data/get_data_pertemuan.php",
-data: "abkelas="+abkelas,
-cache: false,
-success: function(msg){
 $("#pertemuan").html(msg);
 }
 });
@@ -267,7 +251,7 @@ $("#pertemuan").html(msg);
 $("#pertemuan").change(function(){
 var pertemuan = $("#pertemuan").val();
 $.ajax({
-url: "../get_data/get_link_linkabsen.php",
+url: "../get_data_panitia/get_data_panitia.php",
 data: "pertemuan="+pertemuan,
 cache: false,
 success: function(msg){
