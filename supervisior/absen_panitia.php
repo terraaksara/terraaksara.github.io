@@ -237,7 +237,7 @@ $(document).ready(function(){
 $("#pertemuan").change(function(){
 var pertemuan = $("#pertemuan").val();
 $.ajax({
-url: "../get_data_panitia/get_data_panitia.php",
+url: "../get_data_panitia/get_data_jenjang.php",
 data: "pertemuan="+pertemuan,
 cache: false,
 success: function(msg){
@@ -249,7 +249,7 @@ $("#jenjang").html(msg);
 $("#jenjang").change(function(){
 var pertemuan = $("#jenjang").val();
 $.ajax({
-url: "../get_data_panitia/get_data_panitia.php",
+url: "../get_data_panitia/get_data_jenjang.php",
 data: "jenjang="+jenjang,
 cache: false,
 success: function(msg){
