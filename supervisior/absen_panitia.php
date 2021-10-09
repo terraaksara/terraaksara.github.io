@@ -126,19 +126,15 @@
                 <div class="jumbotron">
                     <div class = "container-lg">
                         <div class = "container-sm">
-                        <label for="formGroupExampleInput">kabupaten/kota</label>
-                        <select name="abkabkot" id="abkabkot" class="form-control">
-                            <option>-Kabupaten/Kota-</option>
-                        <?php
-								//mengambil nama-nama propinsi yang ada di database
-							$abkabkot = mysqli_query($koneksi, "SELECT * FROM absen_kabkot ORDER BY nama_abkabkot");
-							while($p=mysqli_fetch_array($abkabkot)){
-							echo "<option value=\"$p[id_abkabkot]\">$p[nama_abkabkot]</option>\n";}
-						?>
-                        </select>
                         <label for="formGroupExampleInput">Pertemuan</label>
                         <select name= "pertemuan" id="pertemuan" class="form-control">
                             <option>---Pilih Pertemuan--</option>
+                        <?php 
+                            $pertemuan = mysqli_query($koneksi, "SELECT * FROM pertemuan ORDER BY nama_pertemuan");
+                            while($p=mysqli_fetch_array($pertemuan)){
+                                echo "<option value=\"$p[id_pertemuan]\">$p[nama_pertemuan]</option>\n";
+                            }
+                        ?>
                         </select>
                         <label for="formGroupExampleInput">Link</label>
                         <label name= "link" id="link" class="form-control">
@@ -234,20 +230,6 @@
 var htmlobjek;
 $(document).ready(function(){
 //apabila terjadi event onchange terhadap object <select id=propinsi>
-$("#abkabkot").change(function(){
-var abkabkot = $("#abkabkot").val();
-$.ajax({
-url: "../get_data/get_data_pertemuan.php",
-data: "abkabkot="+abkabkot,
-cache: false,
-success: function(msg){
-//jika data sukses diambil dari server kita tampilkan
-//di <select id=kota>
-$("#pertemuan").html(msg);
-}
-});
-});
-
 $("#pertemuan").change(function(){
 var pertemuan = $("#pertemuan").val();
 $.ajax({
