@@ -130,7 +130,7 @@
                         <select name= "pertemuan" id="pertemuan" class="form-control">
                             <option>---Pilih Pertemuan--</option>
                         <?php 
-                            $pertemuan = mysqli_query($koneksi, "SELECT * FROM pertemuan ORDER BY nama_pertemuan");
+                            $pertemuan = mysqli_query($koneksi, "SELECT * FROM panitia_pertemuan ORDER BY nama_pertemuan");
                             while($p=mysqli_fetch_array($pertemuan)){
                                 echo "<option value=\"$p[id_pertemuan]\">$p[nama_pertemuan]</option>\n";
                             }
